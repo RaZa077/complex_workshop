@@ -1,6 +1,6 @@
-# ================================
+# =========================
 # Unity generated folders
-# ================================
+# =========================
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -9,12 +9,19 @@
 [Ll]ogs/
 [Mm]emoryCaptures/
 
-# ================================
-# Visual Studio / Rider / VSCode
-# ================================
+# =========================
+# Unity Cache & Crash
+# =========================
+UserSettings/
+sysinfo.txt
+*.stackdump
+
+# =========================
+# Visual Studio / Rider / IDE
+# =========================
 .vs/
-.vscode/
 .idea/
+.vscode/
 *.csproj
 *.sln
 *.user
@@ -23,60 +30,56 @@
 *.booproj
 *.svd
 
-# ================================
-# Unity cache / meta backups
-# ================================
-*.pidb.meta
-*.pdb.meta
-*.mdb.meta
+# =========================
+# Unity auto-generated meta
+# (KEEP .meta files!)
+# =========================
+# Do NOT ignore *.meta
 
-# ================================
-# OS generated files
-# ================================
+# =========================
+# OS junk files
+# =========================
 .DS_Store
+.DS_Store?
 Thumbs.db
 ehthumbs.db
 Icon?
 Desktop.ini
 
-# ================================
+# =========================
 # Build artifacts
-# ================================
+# =========================
 *.apk
 *.aab
-*.unitypackage
-*.app
 *.exe
-*.x86
-*.x86_64
-*.so
-*.dmg
-*.zip
+*.app
+*.unitypackage
 
-# ================================
-# Crash reports
-# ================================
-sysinfo.txt
-
-# ================================
-# Logs
-# ================================
+# =========================
+# Logs & temp outputs
+# =========================
 *.log
-
-# ================================
-# User-specific settings
-# ================================
-UserSettings/
-
-# ================================
-# Optional: ignore addressables build cache
-# ================================
-/Assets/AddressableAssetsData/*/BuildScript*
-/Assets/AddressableAssetsData/*/StreamingAssetsCopy*
-
-# ================================
-# Optional: ignore IDE temp files
-# ================================
 *.tmp
 *.bak
 *.swp
+
+# =========================
+# Addressables (optional)
+# =========================
+# Uncomment if using Addressables
+# /Assets/AddressableAssetsData/*/*.bin*
+
+# =========================
+# Shader cache
+# =========================
+*.shadercache
+
+# =========================
+# Crash reports
+# =========================
+crashlytics-build.properties
+
+# =========================
+# GitHub actions / CI
+# =========================
+.github/workflows/*.log
